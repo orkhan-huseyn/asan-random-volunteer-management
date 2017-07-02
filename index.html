@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ASAN Qrup Rəhbəri</title>
+		<meta charset="utf-8"/>
+		<meta name="author" content="ohuseynli2018">
+		<meta name="tags" content="asan xidmet, volunteers, asan service, asan konulluleri, qrup rehberi asan xidmet"/>
+		<link rel="icon" href="asan.ico"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div class="page">
+		<img src="maxresdefault.png" width="150px" onclick="location.reload(true)"/>
+		<h2 style="font-weight: normal;">Qrup Rəhbərinin Ədalətli Bölgü Maşını</h2>
+			<button class="btn" onclick="showC()">Şəxsiyyət</button>
+				<div id="c" style="display: none;" class="hidden">
+					<table class="tbl" align="center">
+						<tr><td id="td1"> - - </td></tr>
+						<tr><td id="td2"> - - </td></tr>
+						<tr><td id="td3"> - - </td></tr>
+						<tr><td id="td4"> - - </td></tr>
+					</table>
+					<button class="select" onclick="sendToC()">Təsadüfi 4 Könüllü Seç</button>
+				</div>
+			<button class="btn" onclick="showRecOne()">Məlumat -1</button>
+				<div id="rec1" style="display: none;" class="hidden">
+					<input type="text" id="volRec1" class="volname" disabled><br/>
+					<button class="select" onclick="sendToRecOne()">Təsadüfi Könüllü Seç</button>
+				</div>
+			<button class="btn" onclick="showRecTwo()">Məlumat 2</button>
+				<div id="rec2" style="display: none;" class="hidden">
+					<input type="text" id="volRec2" class="volname" disabled><br/>
+					<button class="select" onclick="sendToRecTwo()">Təsadüfi Könüllü Seç</button>
+				</div>
+			<button class="btn" onclick="showRecThree()">Məlumat 3</button>
+				<div id="rec3" style="display: none;" class="hidden">
+					<input type="text" id="volRec3" class="volname" disabled><br/>
+					<button class="select" onclick="sendToRecThree()">Təsadüfi Könüllü Seç</button>
+				</div>
+			<button class="btn" onclick="showStat()">Sorğu</button>
+				<div id="stat" style="display: none;" class="hidden">
+					<input type="text" id="volStat" class="volname" disabled><br/>
+					<button class="select" onclick="sendToStat()">Təsadüfi Könüllü Seç</button>
+				</div>
+			<button class="btn" onclick="showKGarden()">Uşaq Guşəsi</button>
+				<div id="kgarden" style="display: none;" class="hidden">
+					<input type="text" id="volKGarden" class="volname" disabled><br/>
+					<button class="select" onclick="sendToKGarden()">Təsadüfi Könüllü Seç</button>
+				</div>
+			<button class="btn" onclick="showVVAQ()">VVAQ</button>
+				<div id="vvaq" style="display: none;" class="hidden">
+					<input type="text" id="volVVAQ" class="volname" disabled><br/>
+					<button class="select" onclick="sendToVVAQ()">Təsadüfi Könüllü Seç</button>
+					<br/>
+					<span id="error" style="color: red"></span>
+				</div>
+			<button class="btn" onclick="showPolice()">Polis</button>
+				<div id="police" style="display: none;" class="hidden">
+					<input type="text" id="volPolice" class="volname" disabled><br/>
+					<button class="select" onclick="sendToPolice()">Təsadüfi Könüllü Seç</button>
+				</div>
+		</div>
+	</body>
+</html>	
